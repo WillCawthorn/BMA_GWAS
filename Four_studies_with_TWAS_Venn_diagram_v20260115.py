@@ -5,7 +5,7 @@ from venny4py.venny4py import venny4py
 # --------------------------------------------------
 # 1. Load difference matrix
 # --------------------------------------------------
-df = pd.read_csv("Difference_Matrix_1A_right_four_studies_with_TWAS.csv")
+df = pd.read_csv("Four_studies_with_TWAS_difference_matrix.csv")
 
 gene_col = df.columns[0]
 study_cols = df.columns[1:5]
